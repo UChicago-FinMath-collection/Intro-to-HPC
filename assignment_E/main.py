@@ -21,7 +21,7 @@ def generate_random_option():
 
 num_options = 1000000
 
-print(f"Pricing {num_options} options using Black-Scholes...")
+print(f"Pricing {num_options} options using Black-Scholes")
 
 start = time.time()
 
@@ -34,4 +34,4 @@ for i in range(num_options):
 
 end = time.time()
 
-print(f"Time to price {num_options} options: {end - start:.4f} seconds")
+print(f"Time to price {num_options} options: {end - start} seconds")

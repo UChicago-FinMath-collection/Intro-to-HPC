@@ -9,7 +9,7 @@ width = 1000
 height = 1000
 max_iter = 300
 
-print(f"Generating Julia set ({width}x{height}, max_iter={max_iter})...")
+print(f"Generating Julia set ({width}x{height}, max_iter={max_iter})")
 
 start = time.time()
 
@@ -33,4 +33,4 @@ for row in range(height):
 
 end = time.time()
 
-print(f"Time taken: {end - start:.4f} seconds")
+print(f"Time taken: {end - start}")
